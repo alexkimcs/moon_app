@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "Moon_venv/bin/python",
+    "git.ignoreLimitWarning": true
+}

@@ -1,0 +1,27 @@
+
+body {
+    background-color: #dadada;
+  -moz-font-smoothing: grayscale;
+}
+.dashboard-header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#5841D7;
+    
+}
+.app-name{
+    float: left;
+    color: white;
+}
+.balance-container{
+    justify-content: flex-end;
+    color: white;
+}
+.trades-hist-containe{
+    color: black;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}

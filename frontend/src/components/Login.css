@@ -1,0 +1,13 @@
+body {
+  background-color: #dadada;
+  -moz-font-smoothing: grayscale;
+}
+.login-button{
+  color:  #5841d7;
+}
+
+body > div,
+body > div > div,
+body > div > div > .ui.grid {
+  height: 100%;
+}
