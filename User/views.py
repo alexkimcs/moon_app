@@ -73,3 +73,12 @@ class GetUserIDView(APIView):
     def post(self, request):
         response = cache.get('user_id')
         return Response(response)
+
+class DeleteUserIDView(APIView):
+    model = Users
+    def post(self, request):
+        user_id = request.data['user_id']
+        user = self.model.objects.get(id=user_id)
+        user.delete()
+
+

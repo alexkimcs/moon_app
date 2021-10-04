@@ -186,7 +186,7 @@ render() {
                             
                         </Grid.Column>
                         <Grid.Column>
-                            <div class="ui black inverted segment">
+                            <div className="coins-container" class="ui inverted segment">
                                 <GetCrypto/>
                             </div>
                        </Grid.Column>

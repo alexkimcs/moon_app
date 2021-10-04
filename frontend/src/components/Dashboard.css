@@ -18,7 +18,10 @@ body {
     color: white;
 }
 .trades-hist-containe{
-    color: black;
+    color:#5841D7;;
+}
+.coins-container{
+    background-color:#5841D7;
 }
 .main-content{
     display: flex;

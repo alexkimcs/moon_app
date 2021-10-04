@@ -9,5 +9,6 @@ urlpatterns = [
     path(r'balance', views.UserBalanceAPIView.as_view(), name='balance'),
     path('updatebalance', views.UpdateBalanceAPIView.as_view(), name='updatebalance'),
     path('getuserid', views.GetUserIDView.as_view(), name='getuserid'),
-    path('setuserid', views.SetUserIDView.as_view(), name='setuserid')
+    path('setuserid', views.SetUserIDView.as_view(), name='setuserid'),
+    path('deleteuser', views.DeleteUserIDView.as_view(), name='setuserid')
 ]
